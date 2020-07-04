@@ -23,7 +23,7 @@ function submitIt(){
 }
 function frameIt(){
   $('imag').on('load', function(){
-    addClass('tasty');
+    this.addClass('tasty');
   })
 }
 
