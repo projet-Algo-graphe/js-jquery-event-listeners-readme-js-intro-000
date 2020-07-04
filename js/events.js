@@ -22,9 +22,9 @@ function submitIt(){
   });
 }
 function frameIt(){
-  $( 'imag' ).load(function() {
-      $( this ).addClass( "tasty" );
-  });
+  $( "img.userIcon" ).load(function() {
+    $( this ).addClass( "bigImg" );
+});
 }
 
 $(document).ready(function(){
