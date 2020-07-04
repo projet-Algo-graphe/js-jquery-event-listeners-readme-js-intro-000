@@ -23,9 +23,7 @@ function submitIt(){
 }
 function frameIt(){
   $( 'imag' ).load(function() {
-    if ( $( this ).height() > 100) {
       $( this ).addClass( "bigImg" );
-    }
   });
 }
 
