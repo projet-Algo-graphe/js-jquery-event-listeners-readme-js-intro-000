@@ -22,7 +22,7 @@ function submitIt(){
   });
 }
 function frameIt(){
-  $( "img.userIcon" ).load(function() {
+  $( 'img' ).load(function() {
     $( this ).addClass( "bigImg" );
 });
 }
