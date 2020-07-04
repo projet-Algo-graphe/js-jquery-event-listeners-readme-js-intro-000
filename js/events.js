@@ -5,6 +5,12 @@ $('p').on('click', function(e){
 })
 }
 
+function frameIt(){
+  $('imag').on('load', function(){
+    $('imag').append(`class = tasty`)
+  })
+}
+
 $(document).ready(function(){
 
 // call functions here
