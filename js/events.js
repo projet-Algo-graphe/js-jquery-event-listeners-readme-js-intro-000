@@ -21,6 +21,11 @@ function submitIt(){
 
   });
 }
+function frameIt(){
+  $('imag').on('load', function(){
+    $(this).addClass('tasty');
+  })
+}
 
 $(document).ready(function(){
 
