@@ -9,6 +9,7 @@ function pressIt(){
   $('input').on('keydown', function(e){
     if(e.key === "G"){
       alert('You pressed the G key');
+      return;
     }
   })
 }
