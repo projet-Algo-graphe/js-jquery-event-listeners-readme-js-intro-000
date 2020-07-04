@@ -22,9 +22,11 @@ function submitIt(){
   });
 }
 function frameIt(){
-  $('imag').on('load', function(){
-    $('this').addClass('tasty');
-  })
+  $( 'imag' ).load(function() {
+    if ( $( this ).height() > 100) {
+      $( this ).addClass( "bigImg" );
+    }
+  });
 }
 
 $(document).ready(function(){
