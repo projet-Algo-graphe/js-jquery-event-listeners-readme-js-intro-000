@@ -7,7 +7,7 @@ $('p').on('click', function(e){
 
 function pressIt(){
   $('input').on('keydown', function(e){
-    if(e === 'G'){
+    if(e.key === 'G'){
       alert('You pressed the G key');
     }
   })
