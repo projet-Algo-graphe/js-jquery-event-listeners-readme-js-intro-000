@@ -10,7 +10,6 @@ function pressIt(){
     if(e.key === 'G'){
       alert('You pressed the G key');
     }
-    return;
   })
 }
 
